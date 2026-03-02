@@ -1,0 +1,60 @@
+body{
+    background:linear-gradient(grey,blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.title{
+    color: black;
+    text-align: center ;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+a{
+    display: grid;
+    color: black;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    font-size: large;
+}
+.logindiv{
+    display: grid;
+    background-color: white;
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    align-content: center;
+    margin: auto;
+
+}
+.button{
+    /* make the button a block-level element so margin:auto can center it */
+    display: block;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px auto; /* vertical spacing + horizontal centering */
+    cursor: pointer;
+}
+
+/* center labels and inputs within the login container */
+.logindiv label,
+.logindiv input {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+}
+
